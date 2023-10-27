@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+}
+nav {
+  background-color:  #204f7d;
+  color: white;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 35px;
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(179, 167, 167);
+}
+
+
+
+header {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  margin: 70px;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+}
+
+.header-content h1,
+p {
+  width: 950px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-content {
+    text-align: center;
+  }
+
+  .header-content h1 {
+    font-size: 1.5em;
+  }
+
+  .header-content strong {
+    font-size: 1.2em;
+  }
+
+  .header-content p {
+    font-size: 0.9em;
+  }
+
+  .logo {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 10px; 
+  }
+
+  .header-content {
+    margin-top: 10px; 
+  }
+}
+
+section#about,
+section#products {
+  padding: 40px; 
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd; 
+}
+
+.product-item {
+  display: inline-block;
+  margin: 30px;
+  text-align: center;
+  border: 1px solid #ddd; 
+  padding: 1px; 
+}
+
+.product-item img {
+  max-width: 200px; 
+  display: block;
+  margin: 0 auto;
+}
+
+
+#about {
+  background-color: #f9f9f9; /* Background color */
+  padding: 50px; /* Add some space around the content */
+  text-align: center; /* Center-align the content */
+}
+
+#about h2 {
+  color: #204f7d; /* Header text color */
+}
+
+#about p {
+  width: 300px;
+  font-size: 1.2em; /* Font size */
+  line-height: 1.6; /* Line height for better readability */
+}
+
+/* Style for the footer */
+footer {
+  background-color:  #204f7d; /* Footer background color */
+  color: #fff; /* Footer text color */
+  text-align: center; /* Center-align the content */
+  padding: 10px; /* Add some space around the content */
+
+  /* Your existing styles */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0; /* Remove default margin */
+  font-size: 0.8em; /* Font size */
+  text-align: center;
+}
+
+.para p {
+  text-align: center;
+}
+
+.sec {
+  background-color: rgb(244, 246, 248);
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.heading {
+  text-align: center;
+}
+
+.prg {
+  text-align: center;
+}
+
+.heading h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  text-align: center;
+  max-width: 300px;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+.card p {
+  color: #555;
+  margin-top: 10px;
+}

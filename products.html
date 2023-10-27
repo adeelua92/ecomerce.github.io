@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Equipments</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script>
+       
+        function addToCart(productName, price) {
+           
+            alert(`Added "${productName}" to the cart. Price: £${price}`);
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="signup.html">Signup</a></li>
+        </ul>
+    </nav>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-item">
+            <img src="ladder.jpeg" alt="Ladder" height="100px" width="100px">
+            <h3>Ladder</h3>
+            <p>Price: £16.00</p>
+            <button onclick="addToCart('Ladder', 16.00)">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="gloves.jpeg" alt="gloves" height="100px" width="100px">
+            <h3>Gloves</h3>
+            <p>Price: £20.00</p>
+            <button onclick="addToCart('gloves', 20.00)">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="hammer.jpeg" alt="hammer" height="100px" width="100px">
+            <h3>Hammer</h3>
+            <p>Price: £15.00</p>
+            <button onclick="addToCart('hammer', 15.00)">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="drillmachine.jpeg" alt="drillmachine" height="100px" width="100px">
+            <h3>Drill Machine</h3>
+            <p>Price: £45.00</p>
+            <button onclick="addToCart('Ladder', 45.00)">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="Earth Rammer.png" alt="Earth Rammer" height="100px" width="100px">
+            <h3>Earth Rammer</h3>
+            <p>Price: £23.00</p>
+            <button onclick="addToCart('Ladder', 23.00)">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="measuringtape.jpeg" alt="measuringtape" height="100px" width="100px">
+            <h3>Measuring Tape</h3>
+            <p>Price: £5.00</p>
+            <button onclick="addToCart('measuringtape', 5.00)">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="Helmet.png" alt="Helmet" height="150px" width="150px">
+            <h3>Helmet</h3>
+            <p>Price: £7.00</p>
+            <button onclick="addToCart('measuringtape', 7.00)">Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <span>&copy; 2023 Construction Equipments</span>
+    </footer>
+</body>
+</html>
